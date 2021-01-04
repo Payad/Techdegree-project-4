@@ -21,8 +21,8 @@
   }
   
   .nav-link:hover {
-    color: #fff;
-    background-color: #58e1c1;
+    color: $white;
+    background-color: $Turquoise;
   }
   
   
@@ -33,7 +33,7 @@
   .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $White;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
