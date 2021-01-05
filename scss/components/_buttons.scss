@@ -13,10 +13,8 @@
   }
 
   .btn:hover {
-    background-color: lighten($white, 15%);
-    transition: $lightblue, 5s;
-    
- }
+    background-color: lighten($lightblue, 15%);
+    }
   
   .default {
     background-color: $lightblue;
