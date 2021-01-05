@@ -13,9 +13,9 @@
   }
 
   .btn:hover {
-    lighten: ($white, 15%);
-    transition: $orange, 5s;
-    transform
+    background-color: lighten($white, 15%);
+    transition: $lightblue, 5s;
+    
  }
   
   .default {
@@ -23,7 +23,7 @@
   }
   
   .error {
-    background-color: $Magenta;
+    background-color: $magenta;
   }
   
   .info {
