@@ -12,9 +12,25 @@
     border-radius: 5px;
   }
 
-  .btn:hover {
+  .default:hover {
     background-color: lighten($lightblue, 15%);
     }
+
+  .error:hover {
+    background-color: lighten($magenta, 15%);
+  }
+
+  .info:hover {
+    background-color: lighten($lavender, 15%);
+  }
+
+  .success:hover {
+    background-color: lighten($green, 15%);
+  }
+
+  .warning:hover {
+    background-color: lighten($orange, 15%);
+  }
   
   .default {
     background-color: $lightblue;

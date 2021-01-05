@@ -407,9 +407,24 @@ a {
   border-radius: 5px;
 }
 
-.btn:hover {
-  background-color: white;
-  transition: #51ddfc, 5s;
+.default:hover {
+  background-color: #9cecfd;
+}
+
+.error:hover {
+  background-color: #f1b5b8;
+}
+
+.info:hover {
+  background-color: #bdafd9;
+}
+
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 .default {
